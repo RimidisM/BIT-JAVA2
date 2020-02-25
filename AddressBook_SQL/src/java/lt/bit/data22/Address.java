@@ -1,4 +1,8 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package lt.bit.data22;
 
 import java.util.Objects;
@@ -15,7 +19,7 @@ public class Address {
     private String city;
     private String postalCode;
 
-    public Address(Integer personId, Integer personId, String address, String city, String postalCode) {
+    public Address(Integer personId, String address, String city, String postalCode) {
 
         this.address = address;
         this.city = city;
@@ -42,6 +46,10 @@ public class Address {
     public String getPostalCode() {
         return postalCode;
     }
+
+//    public static void setNext(int next) {
+//        Address.next = next;
+//    }
 
     public void setId(Integer id) {
         this.id = id;
@@ -97,3 +105,6 @@ public class Address {
     }
 
 }
+
+//turi buti back mygtukas
+//parasyti adding new arba editing Kieno pvz Jono jaonaicio

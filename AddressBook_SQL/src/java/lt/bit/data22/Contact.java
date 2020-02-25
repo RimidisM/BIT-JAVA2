@@ -20,11 +20,12 @@ public class Contact {
     private String type;
     private String contact;
 
-    public Contact(String type, String contact) {
+    public Contact(Integer personId, String type, String contact) {
 
         this.id = next++;
         this.type = type;
         this.contact = contact;
+        this.personId = personId;
     }
 
     public Contact() {

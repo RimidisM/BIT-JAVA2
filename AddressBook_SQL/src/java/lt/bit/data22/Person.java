@@ -1,4 +1,8 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package lt.bit.data22;
 
 import java.math.BigDecimal;
@@ -17,6 +21,8 @@ public class Person {
     private Date birthDate;
     private BigDecimal salary;
 
+//    private List<Address> addresses = new ArrayList();
+//    private List<Contact> contacts = new ArrayList();
 
     public Person(String fna, String lna, Date birthDate, BigDecimal sal) {
 
@@ -24,6 +30,10 @@ public class Person {
         this.lastName = lna;
         this.birthDate = birthDate;
         this.salary = sal;
+        
+//        List<Address> addresses1 = this.addresses;
+//        List<Contact> contacts1 = this.contacts;
+
     }
     
     public Person(){
@@ -54,6 +64,14 @@ public class Person {
     public void setId(Integer id) {
         this.id = id;
     }
+
+//    public List<Address> getAddresses() {
+//        return addresses;
+//    }
+//
+//    public List<Contact> getContacts() {
+//        return contacts;
+//    }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
